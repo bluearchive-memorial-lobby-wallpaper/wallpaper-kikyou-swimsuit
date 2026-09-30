@@ -24,6 +24,7 @@
     "preview": true,
     "voice": {
       "locales": [
+        "zh-cn",
         "ja",
         "ko"
       ]

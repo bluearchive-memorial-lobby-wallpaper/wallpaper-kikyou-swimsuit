@@ -266,6 +266,10 @@
         "index": 19,
         "options": [
           {
+            "label": "Simplified Chinese",
+            "value": "zh-cn"
+          },
+          {
             "label": "Japanese",
             "value": "ja"
           },
@@ -285,12 +289,16 @@
         "order": 41,
         "text": "Dialogue Language",
         "type": "combo",
-        "value": "ja"
+        "value": "zh-cn"
       },
       "voicelanguage": {
         "condition": "dialoguelanguagepreset.value == 'custom' && (interactionpreset.value == 'default' || (interactions.value == true && voicelines.value == true))",
         "index": 20,
         "options": [
+          {
+            "label": "Simplified Chinese",
+            "value": "zh-cn"
+          },
           {
             "label": "Japanese",
             "value": "ja"
@@ -303,7 +311,7 @@
         "order": 42,
         "text": "Voice Language",
         "type": "combo",
-        "value": "ja"
+        "value": "zh-cn"
       },
       "showsubtitles": {
         "condition": "dialoguelanguagepreset.value == 'custom' && (interactionpreset.value == 'default' || (interactions.value == true && voicelines.value == true))",
@@ -317,6 +325,10 @@
         "condition": "dialoguelanguagepreset.value == 'custom' && showsubtitles.value == true && (interactionpreset.value == 'default' || (interactions.value == true && voicelines.value == true))",
         "index": 22,
         "options": [
+          {
+            "label": "Simplified Chinese",
+            "value": "zh-cn"
+          },
           {
             "label": "Japanese",
             "value": "ja"
@@ -333,7 +345,7 @@
         "order": 44,
         "text": "Primary Subtitle Language",
         "type": "combo",
-        "value": "ja"
+        "value": "zh-cn"
       },
       "showsecondarysubtitles": {
         "condition": "dialoguelanguagepreset.value == 'custom' && showsubtitles.value == true && (interactionpreset.value == 'default' || (interactions.value == true && voicelines.value == true))",
@@ -347,6 +359,10 @@
         "condition": "dialoguelanguagepreset.value == 'custom' && showsubtitles.value == true && showsecondarysubtitles.value == true && (interactionpreset.value == 'default' || (interactions.value == true && voicelines.value == true))",
         "index": 24,
         "options": [
+          {
+            "label": "Simplified Chinese",
+            "value": "zh-cn"
+          },
           {
             "label": "Japanese",
             "value": "ja"
