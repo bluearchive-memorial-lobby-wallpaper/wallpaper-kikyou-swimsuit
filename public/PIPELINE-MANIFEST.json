@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "kind": "pipeline-binary-package",
+  "immutable": true,
+  "variantId": "swimsuit",
+  "canonicalId": "kikyou-swimsuit",
+  "studentId": "kikyou",
+  "runId": "run-000000000125",
+  "runInfo": {
+    "alias": "regional-preset-update-and-publish",
+    "stages": [
+      "regional-preset-preflight",
+      "acquire-resources",
+      "prepare-assets",
+      "validate-structure",
+      "commit-regional-preset",
+      "observe-wp",
+      "plan-wp-release",
+      "bump-wp-version",
+      "tag-wp",
+      "update-description",
+      "build",
+      "static-test",
+      "browser",
+      "wallpaper-engine",
+      "package-check",
+      "commit-github",
+      "gate-publish",
+      "official-editor-pre-submit",
+      "official-editor-ui-pre-submit",
+      "official-editor-submit",
+      "tag-workshop",
+      "push-github",
+      "release-finalize"
+    ]
+  },
+  "versionTag": "v1.1.0",
+  "projectId": "wallpaper-kikyou-swimsuit",
+  "package": {
+    "name": "kikyou-swimsuit-wallpaper",
+    "version": "1.1.0"
+  },
+  "files": [
+    {
+      "path": "assets/index-BFY3MwFy.js",
+      "sha256": "eb2fffba6471431a7260f7fd5068be21e468504935d157a24e076fd920405010",
+      "size": 151732
+    },
+    {
+      "path": "assets/index-Dvrd4XH3.css",
+      "sha256": "7edd305a4bec7d64c5dd9193116f29e99151cbc63cf52bd0f2ecf1be9e02bcf6",
+      "size": 11894
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ja/ch0300_memoriallobby_1_1.ogg",
+      "sha256": "a3d68c6054d2b46c170619362cca21dca35814e0f09118c792d605e1d419c7e0",
+      "size": 19152
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ja/ch0300_memoriallobby_1_2.ogg",
+      "sha256": "ef930024d220bfa5f7df4d8b6b7f7cdd286fd7f883d73b05a343219fed1750ec",
+      "size": 14662
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ja/ch0300_memoriallobby_1_3.ogg",
+      "sha256": "1343abb08c62fc151b589710267338941d78c059101dae974f9c5f725bab20d0",
+      "size": 21399
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ja/ch0300_memoriallobby_2_1.ogg",
+      "sha256": "dc5cd811c79a4a4304ba29844d030bb1a9f099ff186ab45b10724abba847b063",
+      "size": 30796
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ja/ch0300_memoriallobby_2_2.ogg",
+      "sha256": "e5ab0d8457f54fdbf0a220fb8e3cdfce575cdcb084132f3063bf7d77725a2237",
+      "size": 39117
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ja/ch0300_memoriallobby_2_3.ogg",
+      "sha256": "c9f46e54369e6b83c6194615aa3a83701f61c7b23d0fd83186096f7124b6d26b",
+      "size": 27396
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ja/ch0300_memoriallobby_3.ogg",
+      "sha256": "517b9a618fbfd2497cd27caba2dc733bc11c4291679ef61297cdccbd3cbbe0f9",
+      "size": 26843
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ja/ch0300_memoriallobby_4_1.ogg",
+      "sha256": "86aa863f8626c411bf5977f1d89623337f8b10f98bef67a006e863a7d3b9874a",
+      "size": 23487
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ja/ch0300_memoriallobby_4_2.ogg",
+      "sha256": "dd76c9115e11f500d2677734857e2491ee8de9888031e2bfd7febd1246c5d40c",
+      "size": 26556
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ja/ch0300_memoriallobby_5.ogg",
+      "sha256": "ff9f9f961a661e9e5a37cc9c9b9b0d3d01d59a12f98457e8873e2d619064d2b7",
+      "size": 23588
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ko/ch0300_memoriallobby_1_1.ogg",
+      "sha256": "823312b2b2e3ffc8cd19798306c6d61f39e46afc498e489ea399870d3f4aed73",
+      "size": 22032
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ko/ch0300_memoriallobby_1_2.ogg",
+      "sha256": "c50c6c79c216bcbe6cd925465f930460e35aeeb386a5e91455bc7dc0cc8f2026",
+      "size": 17957
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ko/ch0300_memoriallobby_1_3.ogg",
+      "sha256": "82546e408cdf8d8a6a6aeb8d3c9c59c754c9bf2691e0844837cb7cacc3d2d717",
+      "size": 27073
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ko/ch0300_memoriallobby_2_1.ogg",
+      "sha256": "a11f0d607ce7e41641ed64da071045d483e56f48feaf8de3f5a5a7322f31a3f3",
+      "size": 27356
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ko/ch0300_memoriallobby_2_2.ogg",
+      "sha256": "9517c7b6517a9d2ff729d284a9123423727a2aaa8fb2071dea372ea66e6e0a6d",
+      "size": 41274
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ko/ch0300_memoriallobby_2_3.ogg",
+      "sha256": "961499afa77cc488c1962acc589e33d6fc74933acf113a8aa8f16d6ccd4f8153",
+      "size": 31134
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ko/ch0300_memoriallobby_3.ogg",
+      "sha256": "a37e2895606353d8d82e532ac8a6aa3030137505d4da15dac3bba450b234e078",
+      "size": 30743
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ko/ch0300_memoriallobby_4_1.ogg",
+      "sha256": "4cc4256c6bce19ba93f800c54c3dbb7254383a6cdd00e2f3426a9ad32ddb54e2",
+      "size": 25481
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ko/ch0300_memoriallobby_4_2.ogg",
+      "sha256": "82c519eef1622f92fa6566d6f0b58f580df7003105ffdd85af8c325f893350c6",
+      "size": 27183
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/ko/ch0300_memoriallobby_5.ogg",
+      "sha256": "7f965e8cd98ea03aa5c4754c43158f838831142c9d19cdd4d4d215efe7233e67",
+      "size": 25242
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/zh-cn/ch0300_memoriallobby_1_1.ogg",
+      "sha256": "cc7d1d21f2220b4483a12de362a6561e1185a7af14c0cdb341e462af5f36b1d6",
+      "size": 19434
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/zh-cn/ch0300_memoriallobby_1_2.ogg",
+      "sha256": "33f20986ca3fa1fbce99c70748cb61b50573246c61c47cea7c47781c50897dc4",
+      "size": 21905
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/zh-cn/ch0300_memoriallobby_1_3.ogg",
+      "sha256": "3588593c726499f60865e68e8e75c80d6ec622778f77ca829b1d4acd5e3e617c",
+      "size": 27019
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/zh-cn/ch0300_memoriallobby_2_1.ogg",
+      "sha256": "0ed7ae7961386423ede61bc096179afa1cdd92c8e63c588dab94ac4cd06b07d4",
+      "size": 30915
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/zh-cn/ch0300_memoriallobby_2_2.ogg",
+      "sha256": "748d3ab3e5dd7604b13888525701af44829ee6f06e0ece5269093681b79be735",
+      "size": 54779
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/zh-cn/ch0300_memoriallobby_2_3.ogg",
+      "sha256": "66d74bc21011c366d0a3a3440ce834a3eda370d341c9f153eb284c29f5e89eb4",
+      "size": 41051
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/zh-cn/ch0300_memoriallobby_3.ogg",
+      "sha256": "50d7f61026e6258977cf4a697284b148bed4dcb23caefc106a93efbaed861195",
+      "size": 39449
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/zh-cn/ch0300_memoriallobby_4_1.ogg",
+      "sha256": "55369cb6cd2465548809ac3d61afd050ec358db2a36340208daa1fddae120c10",
+      "size": 30205
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/zh-cn/ch0300_memoriallobby_4_2.ogg",
+      "sha256": "ee9613ab54022d4161abc2bbd853aaaf1461e984c29e264ff8144048f197eb3b",
+      "size": 27541
+    },
+    {
+      "path": "assets/kikyou-swimsuit/audio/zh-cn/ch0300_memoriallobby_5.ogg",
+      "sha256": "d1d9fe0aa749c5565f8e9ecbfe1b9af2af7bad0fe18daec5b04d110324ea3318",
+      "size": 34661
+    },
+    {
+      "path": "assets/kikyou-swimsuit/bgm/my-character-bgm.flac",
+      "sha256": "14466ab912c8983dacd8b3cf23330b886296218f72f5db013fbb58d2e274d2b0",
+      "size": 1272731
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model-4k/CH0300_home_2.png",
+      "sha256": "64e7b7761735d2c8ba9368f9eb4f715eecbacf9669ef7cb2821c5b737f9ba49f",
+      "size": 2142913
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model-4k/CH0300_home_3.png",
+      "sha256": "687fbb6b0bc510b6fc0c333b5d78ef8d640e7e454c731232415acbe7465df9cb",
+      "size": 2154727
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model-4k/CH0300_home.png",
+      "sha256": "ce1349b34061d1c960a199faf8b14cdd114f086a5caf1bfc2a180182ad87973f",
+      "size": 2361007
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model-4k/my-character.atlas",
+      "sha256": "ff4570614daba9fb2f25013682e70c1b742d78e20d0d0b06bd3a4e9712a0467a",
+      "size": 18889
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model-4k/my-character.skel",
+      "sha256": "52b5decafb59c480e7caad3ab5999c6eb90f42fcc0499c82d919a55a5c1ae7a6",
+      "size": 617120
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model-8k/CH0300_home_2.png",
+      "sha256": "64e7b7761735d2c8ba9368f9eb4f715eecbacf9669ef7cb2821c5b737f9ba49f",
+      "size": 2142913
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model-8k/CH0300_home_3.png",
+      "sha256": "687fbb6b0bc510b6fc0c333b5d78ef8d640e7e454c731232415acbe7465df9cb",
+      "size": 2154727
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model-8k/CH0300_home.png",
+      "sha256": "ce1349b34061d1c960a199faf8b14cdd114f086a5caf1bfc2a180182ad87973f",
+      "size": 2361007
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model-8k/my-character.atlas",
+      "sha256": "ff4570614daba9fb2f25013682e70c1b742d78e20d0d0b06bd3a4e9712a0467a",
+      "size": 18889
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model-8k/my-character.skel",
+      "sha256": "52b5decafb59c480e7caad3ab5999c6eb90f42fcc0499c82d919a55a5c1ae7a6",
+      "size": 617120
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model/CH0300_home_2.png",
+      "sha256": "64e7b7761735d2c8ba9368f9eb4f715eecbacf9669ef7cb2821c5b737f9ba49f",
+      "size": 2142913
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model/CH0300_home_3.png",
+      "sha256": "687fbb6b0bc510b6fc0c333b5d78ef8d640e7e454c731232415acbe7465df9cb",
+      "size": 2154727
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model/CH0300_home.png",
+      "sha256": "ce1349b34061d1c960a199faf8b14cdd114f086a5caf1bfc2a180182ad87973f",
+      "size": 2361007
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model/my-character.atlas",
+      "sha256": "ff4570614daba9fb2f25013682e70c1b742d78e20d0d0b06bd3a4e9712a0467a",
+      "size": 18889
+    },
+    {
+      "path": "assets/kikyou-swimsuit/model/my-character.skel",
+      "sha256": "52b5decafb59c480e7caad3ab5999c6eb90f42fcc0499c82d919a55a5c1ae7a6",
+      "size": 617120
+    },
+    {
+      "path": "index.html",
+      "sha256": "a8d76ffc89e29042f333b734c0054cedc292e8704168a5562284069d41035153",
+      "size": 617
+    },
+    {
+      "path": "logging-bootstrap.js",
+      "sha256": "241c98017502d02e3f2dfc874d3bd57a7899d4da6a45c21090bef3953cc98eef",
+      "size": 7693
+    },
+    {
+      "path": "OFFLINE-README.txt",
+      "sha256": "e52a36695cac871a1c68915889bce906ec71f2f6e4b4ce119eb9eb30129e0fba",
+      "size": 1188
+    },
+    {
+      "path": "preview.gif",
+      "sha256": "73af93228c58fb35cbd665d659143a9bfc293b2b612b9b6669b37a1e68397047",
+      "size": 937062
+    },
+    {
+      "path": "project.json",
+      "sha256": "b064efd4a9f3a8a7a64a36a72800d72788d49ab35960c037a67944bf802dece6",
+      "size": 17530
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "sha256": "aa6382fc728b8ecdf735dc4c5945267e69e3d404320ba873eb7ed58c6d035db1",
+      "size": 1507
+    },
+    {
+      "path": "vendor/spine-webgl-4.2.js",
+      "sha256": "faccf252486de234c69a045aa6024b6688ded578eff09103607adfaedd7752b6",
+      "size": 554544
+    }
+  ],
+  "contentDigest": "7fb82993cff2c1db7c43edb4563657c64716ee8fbdb476a5d737615aa43bf0ec",
+  "manifestDigest": "f55457fb514be4de39985f193bb1013d3ab41d2459e8f421dc05db1db7fa5290"
+}
